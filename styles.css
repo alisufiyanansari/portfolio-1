@@ -72,10 +72,12 @@ hr {
   font-size: large;
 }
 .projects {
-  margin: 2rem;
+  margin: 2rem auto;
   font-weight: bold;
   color: var(--primary-color);
   font-size: xxx-large;
+  max-width: 600px;
+  text-align: center;
   text-decoration: underline;
 }
 
@@ -132,5 +134,12 @@ hr {
 }
 
 .project-container {
-  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.project-container a {
+  margin-left: 1rem;
 }
